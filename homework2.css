@@ -123,10 +123,10 @@
 			{
 			.move
 			{
-			  width:12%;	
+			  width:14%;	
 			  color:#FF0;
 			  font-weight:bold;
-			  font-size:10%;
+			  font-size:5%;
 			  position:relative;
 			  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 			  background-color: red;
@@ -135,7 +135,7 @@
 			}
 			@keyframes start {
 			  from { left:0; }
-			  to { left: calc(100% - 12%); }
+			  to { left: calc(100% - 14%); }
 			}
 			
 			}
