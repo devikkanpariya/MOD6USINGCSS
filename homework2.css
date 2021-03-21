@@ -92,9 +92,9 @@ marquee
   animation-direction: alternate ;
 }
 @keyframes start {
-  0%   { left: 0px; right:965px;}	
-  100% { left: 965px; right:0px;}
-]}
+  from { left:0; }
+  to { left: calc(100% - 21%); }
+}
 marquee i
 {
  background-color:#F00;	
