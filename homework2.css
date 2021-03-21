@@ -1,142 +1,141 @@
-		@charset "utf-8";
-	/* CSS Document */
-	*{
-	   margin:0;
-	   padding:0;
-	   box-sizing:border-box;
-	}
-	body
-	{
-		background-color:#FF0;
-		
-	}
-	h1
-	{
-		color:#F00;
-		text-align:center;
-		
-	}
-	p
-	{
-		font-size:100%;		
-	}
-	p a
-	{
-		color:#F00;
-	}
-	p::first-letter
-	{
-		font-size:300%;
-		font-weight:bold;
-		font-style:italic;
-	}	
-	a:visited 
-	{
-	  color:white;
-	  text-decoration:none;
-	}
-	a:hover
-	{
-	color:#00006A;	
-	}
-	h2
-	{
-		color:#00F;
-		font-style:italic;
-		text-align:right;
-	}
-	h2 i
-	{
-	 font-size:45px;	
-	}
-	h3
-	{
-		text-align:center;
-		color:#F00;
-		font-weight:400;	
-		padding-bottom:10px;
-	}
-	table
-	{
-		margin:auto;	
-		background-color:#0FF;		
-		animation-duration:10s;
-		animation-name:contrast;
-	}
-	table tr td
-	{
-		text-align:center;
-		padding:10px;
-	}
-	@keyframes contrast 
-	{
-	  from
-	   {background-color:cray; color:black;}
-	  to 
-	   {background-color:green; color:white;}
-	  
-	  table
-	  {
-		 animation-duration:forwards;
-	  }
-	}
-	.move
-	{
-	  width:14%;	
-	  color:#FF0;
-	  font-weight:bold;
-	  font-size:100%;
-	  position:relative;
-	  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	  background-color: red;
-	  animation:start 10s forwards;
-	  animation-direction: alternate;
-	}
-	@keyframes start {
-	  from { left:0; }
-	  to { left: calc(100% - 21%); }
-	}
-	marquee i
-	{
-	 background-color:#F00;	
-	}
-	strong
-	{
-	  color:#F00;
-	  font-weight:100;	
-	}
-	mark
-	{
-	  border-radius:5px;	
-	  background-color:#000;
-	  padding:10px;
-	}
-	mark a
-	{
-		text-decoration:none;
-		color:#FFF;
-	}
-	mark a:hover
-	{
-	 color:#8F9BB1;	
-	}
-	@media only screen and (max-width:768px)
-	{
-	.move
-	{
-	  width:15%;	
-	  color:#FF0;
-	  font-weight:bold;
-	  font-size:20%;
-	  position:relative;
-	  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	  background-color: red;
-	  animation:start 10s infinite;
-	  animation-direction: alternate ;
-	}
-	@keyframes start {
-	  from { left:0; }
-	  to { left: calc(100% - 21%); }
-	}
-	
-	}
+				@charset "utf-8";
+			/* CSS Document */
+			*{
+			   margin:0;
+			   padding:0;
+			   box-sizing:border-box;
+			}
+			body
+			{
+				background-color:#FF0;
+				
+			}
+			h1
+			{
+				color:#F00;
+				text-align:center;
+				
+			}
+			p
+			{
+				font-size:100%;		
+			}
+			p a
+			{
+				color:#F00;
+			}
+			p::first-letter
+			{
+				font-size:300%;
+				font-weight:bold;
+				font-style:italic;
+			}	
+			a:visited 
+			{
+			  color:white;
+			  text-decoration:none;
+			}
+			a:hover
+			{
+			color:#00006A;	
+			}
+			h2
+			{
+				color:#00F;
+				font-style:italic;
+				text-align:right;
+			}
+			h2 i
+			{
+			 font-size:45px;	
+			}
+			h3
+			{
+				text-align:center;
+				color:#F00;
+				font-weight:400;	
+				padding-bottom:10px;
+			}
+			table
+			{
+				margin:auto;	
+				background-color:#0FF;	
+				animation-duration:10s;
+				animation-name:contrast;
+			}
+			table tr td
+			{
+				text-align:center;
+				padding:10px;
+			}
+			@keyframes contrast 
+			{
+			  from
+			   {background-color:cray; color:black;}
+			  to
+			   {background-color:green; color:white;}
+			}
+			marquee
+			{
+				
+			}
+			.move
+			{
+			  width:14%;	
+			  color:#FF0;
+			  font-weight:bold;
+			  font-size:100%;
+			  position:relative;
+			  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+			  background-color: red;
+			  animation:start 10s infinite;
+			  animation-direction: alternate ;
+			}
+			@keyframes start {
+			  from { left:0; }
+			  to { left: calc(100% - 14%); }
+			}
+			marquee i
+			{
+			 background-color:#F00;	
+			}
+			strong
+			{
+			  color:#F00;
+			  font-weight:100;	
+			}
+			mark
+			{
+			  border-radius:5px;	
+			  background-color:#000;
+			  padding:10px;
+			}
+			mark a
+			{
+				text-decoration:none;
+				color:#FFF;
+			}
+			mark a:hover
+			{
+			 color:#8F9BB1;	
+			}
+			@media only screen and (max-width:768px)
+			{
+			.move
+			{
+			  width:15%;	
+			  color:#FF0;
+			  font-weight:bold;
+			  font-size:20%;
+			  position:relative;
+			  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+			  background-color: red;
+			  animation:start 10s infinite;
+			  animation-direction: alternate ;
+			}
+			@keyframes start {
+			  from { left:0; }
+			  to { left: calc(100% - 15%); }
+			}
+			
+			}
