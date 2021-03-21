@@ -31,10 +31,7 @@ h3
 #nav
 {
 	margin-left:30%; 	
-}
-#nav ul
-{
-	 list-style-type:none; 
+    list-style-type:none;
 }
 #nav a
 { 
@@ -44,8 +41,8 @@ h3
 }
 
 #nav ul li
-{ 
-     padding:5px;
+{
+	 border:0px; 
      width:100px; 
 	 height:40px; 
 	 line-height:40px; 
@@ -79,12 +76,30 @@ p::first-letter
 }
 #footer small
 {
+ margin-right:9%;	
  font-size:100%;	
 }
 figure img
 {
    background-position:left;  
-   text-align:left;
+   text-align:left;	
    margin-right:20px;
    float:left;
+}
+mark
+{	
+	float:left;
+  	border-radius:5px;	
+    background-color:#000;
+	padding:5px;	
+	margin-left:10px;
+}
+mark a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+mark a:hover
+{
+ color:#8F9BB1;	
 }
