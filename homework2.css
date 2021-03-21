@@ -16,7 +16,7 @@ h1
 }
 p
 {
-	font-size:16px;		
+	font-size:100%;		
 }
 p a
 {
@@ -79,10 +79,10 @@ marquee
 }
 .move
 {
-  width:21%;	
+  width:14%;	
   color:#FF0;
   font-weight:bold;
-  font-size:24px;
+  font-size:100%;
   position:relative;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   background-color: red;
@@ -124,7 +124,7 @@ mark a:hover
   width:15%;	
   color:#FF0;
   font-weight:bold;
-  font-size:20%;
+  font-size:50%;
   position:relative;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   background-color: red;
