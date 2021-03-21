@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.top
+{
+   text-align:center;	
+}
+table
+{
+font-size:25px;
+width:100px;	
+margin:auto;
+color:#FFF;
+}
+table tr th 
+{
+   text-align:center;
+   padding-left:20px;
+   border:#FFF 1px solid;	
+}
+table tr td
+{
+   text-align:center;
+   border:#FFF 1px solid;	
+}
+
+table a
+{	
+	text-decoration:none;
+	color:#FFF
+}
+table a:hover
+{
+  color:#A7A7A7;	
+}
+body
+{
+	background-color:#1b2838;
+}
+.container
+{
+	max-width: 1100px;
+	margin:0 auto;
+	padding: 0 3rem;
+	margin-top: 2rem;
+	text-align: center;	
+}
+h1
+{
+	color:#FFF;
+	font-size: 3rem;
+	font-weight:700;
+	letter-spacing:4px;
+	padding-bottom:50px;
+}
+
