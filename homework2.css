@@ -123,7 +123,7 @@
 			{
 			.move
 			{
-			  width:15%;	
+			  width:12%;	
 			  color:#FF0;
 			  font-weight:bold;
 			  font-size:10%;
@@ -135,7 +135,7 @@
 			}
 			@keyframes start {
 			  from { left:0; }
-			  to { left: calc(100% - 15%); }
+			  to { left: calc(100% - 12%); }
 			}
 			
 			}
